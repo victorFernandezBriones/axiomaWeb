@@ -17,6 +17,7 @@ html,body{
 
 #logo{
     margin-top: 3%;
+    width: 85%;
 
 }
 
@@ -691,6 +692,36 @@ section.section-padding{
 }
 
 
+@media (max-width: 1000px) {  
+
+    #espacio{      
+        padding-top: 3% !important;        
+    }
+
+    #servicios{
+       padding-top:18% !important;
+        border:2px solid red;
+    }
+
+    #direccion{
+        margin-top:10% !important;
+    }
+    /*    
+        #contact{
+             margin-top:5% !important;
+        }*/
+
+    #divGaleria{
+        width: 50%;
+        margin-left: 30% !important;
+    }
+
+    .imgService{
+        width: 100%;
+    }
+}
+
+
 @media (max-width: 1024px) {  
 
     #espacio{      
@@ -717,8 +748,6 @@ section.section-padding{
     .imgService{
         width: 100%;
     }
-
-
 }
 
 @media (max-width: 1280px) {
@@ -964,12 +993,12 @@ section.section-padding{
 /*----------------------------------------*/
 
 @media (max-width: 360px) {
-    
+
     #headerEstudios{
         padding-top:13%;    
     }
-    
-     #divDescEstudio{
+
+    #divDescEstudio{
 
         background-image: url("../images/tux-banner-1038x200.jpg") !important;
         background-size: 100%;
@@ -981,32 +1010,32 @@ section.section-padding{
         background-size:cover;
         background-position:center;
     }
-    
+
     #estudioPara{
         height: 1600px;
     }   
-    
+
 }
 
 @media (max-width: 768px) {
     #headerEstudios{
         padding-top:19%;    
     }
-    
+
 }
 
 @media (max-width: 800px) {
     #headerEstudios{
         padding-top:19%;    
     }
-    
+
 }
 
 @media (max-width: 980px) {
     #headerEstudios{
         padding-top:13%;    
     }
-    
+
 }
 
 
@@ -1019,7 +1048,7 @@ section.section-padding{
     #headerTux{
         padding-top:6%;    
     }
-    
+
 }
 
 
@@ -1027,7 +1056,7 @@ section.section-padding{
     #headerTux{
         padding-top:5%;    
     }
-    
+
 }
 
 
@@ -1035,5 +1064,5 @@ section.section-padding{
     #headerTux{
         padding-top:3%;    
     }
-    
+
 }
