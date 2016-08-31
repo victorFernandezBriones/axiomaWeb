@@ -13,9 +13,10 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right custom-menu">
                 <li class="active"><a id="aInicio" href="index.php">Inicio</a></li>
-                <li><a id="aInicio" href="areas.php">Inspecci&oacute;n de Obras Concesionadas</a></li>
-                <li><a id="aInicio" href="construccion.php">Inspecci&oacute;n de Obras de Construcci&oacute;n</a></li>
+                <li><a id="aInicio" href="areas.php">Obras Concesionadas</a></li>
+                <li><a id="aInicio" href="construccion.php">Obras de Construcci&oacute;n</a></li>
                 <li><a id="aInicio" href="estudios.php">Estudios y Proyectos de Ingenier&iacute;a</a></li>
+                <li><a id="aInicio" href="estudios.php">Videoteledetección</a></li>
                    
             </ul>
         </div>

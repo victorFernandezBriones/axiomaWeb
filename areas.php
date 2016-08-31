@@ -31,9 +31,10 @@
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav navbar-right custom-menu">
                         <li ><a id="aInicio" href="index.php">Inicio</a></li>
-                        <li class="active"><a id="aInicio" href="areas.php">Inspecci&oacute;n de Obras Concesionadas</a></li>
-                        <li><a id="aInicio" href="construccion.php">Inspecci&oacute;n de Obras de Construcci&oacute;n</a></li>
-                        <li><a id="aInicio" href="estudios.php">Estudios y Proyectos de Ingenier&iacute;a</a></li>
+                        <li class="active"><a id="aConcecion" href="areas.php">Obras Concesionadas</a></li>
+                        <li><a id="aConstruccion" href="construccion.php">Obras de Construcci&oacute;n</a></li>
+                        <li><a id="aEstudio" href="estudios.php">Estudios y Proyectos de Ingenier&iacute;a</a></li>
+                        <li><a id="aVideo" href="videoTeledeteccion.php">VideoTeledetecci&oacute;n</a></li>
 
                     </ul>
                 </div>
@@ -41,7 +42,7 @@
         </nav>
 
         <header id="headerAreas">
-            <img id="banner" src="images/slider2-3.jpg">
+            <img class="banner" src="images/slider2-3.jpg">
         </header>   
 
 

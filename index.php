@@ -23,77 +23,61 @@
         <br/>
         <div id="espacio"></div>
         <!-- Header Carousel -->
-        <header id="home" class="carousel slide">
-            <ul class="cb-slideshow">
-                <li><span>image1</span>
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-12">
-                                <div class="text-center"><h3></h3></div>
-                            </div>
+        <header id="home" >
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="4000">
+<!--                 Indicators 
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+                </ol>-->
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox" >
+                    <div class="item active">
+                        <img class="bannerHome" src="images/banner1.jpg" alt="banner1">
+                        <div class="carousel-caption">
+
                         </div>
-                        <h4></h4>
                     </div>
-                </li>
-                <li>
-                    <span>image2</span>
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-12">
-                                <div class="text-center"><h3></h3></div>
-                            </div>
+                    <div class="item">
+                        <img class="bannerHome" src="images/fotosNuevas/DSC09749.JPG" alt="banner2">
+                        <div class="carousel-caption">
+                            ...
                         </div>
-                        <h4></h4>
-                    </div>
-                </li>
-                <li><span>image3</span>
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-12">
-                                <div class="text-center"><h3></h3></div>
-                            </div>
+                    </div>      
+                    <div class="item">
+                        <img class="bannerHome" src="images/fotosNuevas/banner6.JPG" alt="banner3">
+                        <div class="carousel-caption">
+                            ...
                         </div>
-                        <h4></h4>
-                    </div>
-                </li>
-                <li><span>Image 04</span>
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-12">
-                                <div class="text-center"><h3></h3></div>
-                            </div>
+                    </div>      
+                    <div class="item">
+                        <img class="bannerHome" src="images/fotosNuevas/DSCF4130.JPG" alt="banner4">
+                        <div class="carousel-caption">
+                            ...
                         </div>
-                        <h4></h4>
-                    </div>
-                </li>
-                <li><span>Image 05</span>
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-12">
-                                <div class="text-center"><h3></h3></div>
-                            </div>
+                    </div>      
+                    <div class="item">
+                        <img class="bannerHome" src="images/fotosNuevas/DSCF4149.JPG" alt="banner5">
+                        <div class="carousel-caption">
+                            ...
                         </div>
-                        <h4></h4>
-                    </div>
-                </li>
-                <li><span>Image 06</span>
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-12">
-                                <div class="text-center"><h3></h3></div>
-                            </div>
-                        </div>
-                        <h4></h4>
-                    </div>
-                </li>
-            </ul>
-            <div class="intro-scroller">
-                <a class="inner-link" href="#about">
-                    <div class="mouse-icon" style="opacity: 1;">
-                        <div class="wheel"></div>
-                    </div>
-                </a> 
-            </div>          
+                    </div>      
+                </div>
+
+                <!-- Controls -->
+                <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>       
         </header>
 
         <!-- Page Content -->
@@ -229,8 +213,7 @@
                                     <figure class="effect-oscar">
                                         <img src="images/servicios/innovacion.jpg" alt="img09" class="img-responsive imgService"/>
                                         <figcaption>
-                                            <h5 style="margin-top: 25%;">Innovaci&oacute;n Tecnol&oacute;gica.</h5>
-                                            <a href="#proyectos">View more</a>
+                                            <h5 style="margin-top: 25%;">Innovaci&oacute;n Tecnol&oacute;gica.</h5>                                            
                                         </figcaption>           
                                     </figure>
                                 </div>
@@ -336,24 +319,6 @@
             </div>
         </div>
         <?php require_once 'footer.php'; ?>
-
-        <!--MODALES-->
-
-        <div id="modalEstudio" class="modal fade" tabindex="-1" role="dialog">
-            <div class="modal-dialog">
-                <div class="modal-content modal-lg ">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                        <h4 class="modal-title modal-scrollbar-measure">Modal title</h4>
-                    </div>
-                    <div class="modal-body ">
-                        <p>One fine body&hellip;</p>
-                    </div>                    
-                </div><!-- /.modal-content -->
-            </div><!-- /.modal-dialog -->
-        </div><!-- /.modal -->
-
-
 
         <!--FIN MODALES-->
         <script src="js/jquery.js"></script>

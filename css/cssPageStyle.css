@@ -17,8 +17,17 @@ html,body{
 
 #logo{
     margin-top: 3%;
-    width: 85%;
+    width: 150px;
+    height: 42px;
+}
 
+#video{
+    width:100%;
+    height: 400px;
+}
+
+#headerVideo{
+    padding-top: 5.8%;
 }
 
 #navBar{
@@ -56,8 +65,10 @@ html,body{
 }
 
 #divContenedorGaleria{
-
     padding-bottom: 10%;
+    -webkit-box-shadow: 0px 10px 17px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 10px 17px -4px rgba(0,0,0,0.75);
+    box-shadow: 0px 10px 17px -4px rgba(0,0,0,0.75);
 }
 
 #portfolio1{
@@ -158,7 +169,7 @@ p{
 }
 
 .home-parallax, .parallax-bg{
-    background:url(../images/banner1.jpg) no-repeat fixed center top;
+    background:url(../images/fotosNuevas/camioneta.jpg) no-repeat fixed center top;
     /*background-size*/
     -webkit-background-size:/*@@prefixmycss->No equivalent*/;
     -moz-background-size:cover;
@@ -185,7 +196,7 @@ p{
 }
 
 .section-parallax, .parallax-bg{
-    background:url(../images/banner3.jpg) no-repeat fixed center top;
+    background:url(../images/fotosNuevas/DSCF4149.JPG ) no-repeat fixed center top;
     /*background-size*/
     -webkit-background-size:/*@@prefixmycss->No equivalent*/;
     -moz-background-size:cover;
@@ -212,6 +223,11 @@ p{
     content:"";
 }
 
+#contact{
+    -webkit-box-shadow: -1px -4px 20px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px -4px 20px 0px rgba(0,0,0,0.75);
+    box-shadow: -1px -4px 20px 0px rgba(0,0,0,0.75);
+}
 
 
 /*------------------------------------*/
@@ -344,6 +360,15 @@ section.section-padding{
 
 }
 
+.banner{
+    width: 100%;
+    height: 500px !important;
+}
+
+.bannerHome{
+    width: 100%;
+    height: 600px !important;
+}
 /*------------------------------------------*/
 /*             CONCESIONES                 */
 /*----------------------------------------*/
@@ -457,13 +482,7 @@ section.section-padding{
         top:0;
         width:320px;
     }
-
-
-
-
 }
-
-
 
 /*------------------------------------------*/
 /*             CONSTRUCCION                */
@@ -486,7 +505,7 @@ section.section-padding{
 
 
 .construccion-parallax, .parallax-bg{
-    background:url(../images/construccion.jpg) no-repeat fixed center top;
+    background:url(../images/fotosNuevas/DSCF4149.JPG ) no-repeat fixed center top;
     /*background-size*/
     -webkit-background-size:/*@@prefixmycss->No equivalent*/;
     -moz-background-size:cover;
@@ -552,7 +571,7 @@ section.section-padding{
 }
 
 .estudio-parallax, .parallax-bg{
-    background:url(../images/construccion.jpg) no-repeat fixed center top;
+    background:url(../images/fotosNuevas/DSCF4167.JPG) no-repeat fixed center top;
     /*background-size*/
     -webkit-background-size:/*@@prefixmycss->No equivalent*/;
     -moz-background-size:cover;
@@ -578,6 +597,58 @@ section.section-padding{
     width:100%;
     content:"";
 }
+
+
+/*----------------------------*/
+/*   VideoTeledeteccion      */
+/*--------------------------*/
+#imgInforme{
+    width: 50%;
+    margin-left: 20%;
+}
+
+#fila2{
+    margin-top: 2%;
+}
+
+.linkRutas img:hover{
+    border:10px solid #761c19;
+}
+
+#footerVideo{
+    margin-top: 15%;
+}
+
+#divInfoVideo{
+    padding-bottom: 10% !important;
+}
+
+
+/*---------------------------*/
+/*          Modales         */
+/*-------------------------*/
+.posicionModal{
+    margin-bottom: 20% !important;
+}
+
+.colorAxiomaBG{
+    background-color: #761c19;
+}
+
+.blanco{
+    color: white !important;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*----------------------------*/
@@ -682,7 +753,6 @@ section.section-padding{
     #contact{
         padding-top:10% !important;
     }
-
 
     #divGaleria{        
         width: 50%;
