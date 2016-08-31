@@ -12,7 +12,7 @@ html,body{
 }
 
 #home{
-    margin-top: 5% !important;
+    margin-top: 4.4% !important;
 }
 
 #logo{
@@ -25,6 +25,9 @@ html,body{
     background-color: white !important;
     color: black !important;
     width: 100%;
+    -webkit-box-shadow: -1px 10px 27px -6px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 10px 27px -6px rgba(0,0,0,0.75);
+    box-shadow: -1px 10px 27px -6px rgba(0,0,0,0.75);
 }
 
 #navBar a{
@@ -318,12 +321,9 @@ section.section-padding{
     height:262px;
 }
 
-#headerTux{
-    padding-top: 1%;
-}
 
 #bannerTux{
-    margin-top: 6%;    
+    margin-top: 5.8%;    
     height: 400px;
     width: 100%;
 }
@@ -348,7 +348,7 @@ section.section-padding{
 /*             CONCESIONES                 */
 /*----------------------------------------*/
 #headerAreas{
-    margin-top: 6.5%;
+    margin-top: 5.8%;
 }
 
 #banner{
@@ -470,7 +470,7 @@ section.section-padding{
 /*----------------------------------------*/
 
 #headerConstrucion{
-    margin-top:6.5%;
+    margin-top:5.8%;
 }
 
 #canvasConstruccion{
@@ -528,7 +528,7 @@ section.section-padding{
 
 
 #headerEstudios{
-    padding-top:7%;    
+    padding-top:5.8%;    
 }
 
 #canvasEstudio{
@@ -699,7 +699,7 @@ section.section-padding{
     }
 
     #servicios{
-       padding-top:18% !important;
+        padding-top:18% !important;
         border:2px solid red;
     }
 
