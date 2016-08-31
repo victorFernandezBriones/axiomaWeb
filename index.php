@@ -230,7 +230,7 @@
                                         <img src="images/servicios/innovacion.jpg" alt="img09" class="img-responsive imgService"/>
                                         <figcaption>
                                             <h5 style="margin-top: 25%;">Innovaci&oacute;n Tecnol&oacute;gica.</h5>
-                                            <a href="#proyectos">View more</a>
+                                            <a href="#proyectos" data-toggle="modal" data-target="#modalEstudio"></a>
                                         </figcaption>           
                                     </figure>
                                 </div>
@@ -336,6 +336,9 @@
             </div>
         </div>
         <?php require_once 'footer.php'; ?>
+
+
+
 
         <!--MODALES-->
 
