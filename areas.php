@@ -15,7 +15,7 @@
         <link rel="stylesheet" href="css/patros.css" >
     </head>
 
-    <body data-spy="scroll">        
+    <body data-spy="scroll">      
 
         <nav id="navBar" class="navbar navbar-inverse navbar-fixed-top ">
             <div class="navContainer">
